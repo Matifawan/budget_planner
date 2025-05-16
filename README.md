@@ -13,7 +13,7 @@ A private Flutter app that allows users to manage their budgets and expenses usi
 
 ![Demo](assets/images/demo.gif)
 
-## 🔧 Firebase Features (A to Z)
+## 🔧 Firebase Features 
 
 | Feature               | Description                                 |
 |------------------------|---------------------------------------------|

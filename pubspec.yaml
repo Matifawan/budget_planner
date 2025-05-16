@@ -1,62 +1,27 @@
 name: budget_planner
+description: "A new Flutter project."
+publish_to: 'none'
 version: 1.0.0+1
-publish_to: none
-description: A new Flutter project.
+
 environment:
-  sdk: ">=3.3.0-150.0.dev <4.0.0"
+  sdk: ^3.7.2
 
 dependencies:
-  cupertino_icons: ^1.0.6
-  get: 4.6.6
   flutter:
     sdk: flutter
-  firebase_core: ^2.24.2
-  firebase_auth: ^4.16.0
-  google_fonts: ^6.1.0
-  flutter_svg: ^2.0.9
-  cloud_firestore: ^4.14.0
-  flutter_launcher_icons: ^0.13.1
-  firebase_database: ^10.4.0
-  fl_chart: ^0.66.0
-  shared_preferences: ^2.2.2
-  syncfusion_flutter_charts: ^24.1.47+2
-  logging: ^1.2.0
-  custom_navigation_bar: ^0.8.2
-  google_nav_bar: ^5.0.6
+  cupertino_icons: ^1.0.8
+  get: any
+  firebase_auth: any
+  firebase_database: any
+  syncfusion_flutter_charts: any
+  firebase_core: ^3.13.0
 
 dev_dependencies:
-  flutter_lints: 3.0.1
   flutter_test:
     sdk: flutter
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
-
   assets:
-    - assets/images/d.jpeg
-    - assets/images/d.jpeg
-    - assets/images/splash1.jpeg
-    - assets/images/splash2.jpeg
-    - assets/images/splash5.jpeg
-    - assets/images/splash6.jpeg
-    - assets/images/splash7.jpeg
-    - assets/images/mainlogo.jpeg
-    - assets/images/y1.png
-    - assets/images/1.png
-    - assets/images/y4.png
-    - assets/images/3.png
-    - assets/images/4.png
-    - assets/images/y2.png
-    - assets/images/q1.png
-    - assets/images/q.png
-    - assets/images/e1.png
-    - assets/images/e2.png
-    - assets/images/e3.png
-    - assets/images/e4.png
-    - assets/images/e.png
-    - assets/images/home.png
-    - assets/images/z.png
-flutter_launcher_icons:
-  android: true
-  ios: true
-  image_path: "assets/images/l2.png"
+    - assets/images/demo.gif
